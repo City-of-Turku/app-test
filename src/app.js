@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 
 var port = 3300;
 
-var server = app.listen(port, function () {
+var server = app.listen(port, '0.0.0.0', function () {
   console.log("Server listening on " + port);
 })
 
